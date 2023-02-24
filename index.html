@@ -1,12 +1,351 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=,, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio GRAZIANI CAMILA</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png"  href="img/Favicon.png">
+
 </head>
 <body>
-    <h1>Hola!</h1>
+    <!--===== MENU =====-->
+
+    
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Camila</a>
+        </div>
+        <nav id="nav">
+            <ul>
+            <li><a href="#inicio">INICIO <i class="fa-solid fa-house"></i></a></li>
+            <li><a href="#sobremi">SOBRE MI <i class="fa-solid fa-person"></i></a></li>
+            <li><a href="#skills">HABILIDADES <i class="fa-solid fa-gear"></i></a></li>
+            <li><a href="#curriculum">CURRICULUM <i class="fa-solid fa-file-invoice"></i></a></li>
+            <li><a href="#contacto">CONTACTO <i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+    <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    
+</header>
+</div>
+ <!--===== SECCION INICIO =====-->
+ <section id ="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="img/perfilPhoto - copia.jpg" alt="Imagen de perfil">
+        </div>
+        <h1>CAMILA GRAZIANI</h1>
+        <H2>Analista de Sistemas - Contadora</H2>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+        </div>
+    </div>
+ </section>
+
+  <!--===== SECCION SOBRE MI =====-->
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre mí</h2>
+        <p><span>Mi nombre es Camila Graziani, tengo 28 años.</span>
+            Apasionada por la lógica aplicada a la programación y la contabilidad, 
+            motivada por aprender nuevos lenguajes. Trabajo en equipo poniendo en juego 
+            la escucha activa y la estrategia, lo que aportaría valor y calidad a cada 
+            proyecto.</p>
+
+    <div class="fila">
+        <!-- datos personales -->
+        <div class="col">
+            <h3>Datos Personales</h3>
+            <ul>
+                <li>
+                    <strong>Cumpleaños</strong>
+                    30/01/1995
+                </li>
+                <li>
+                    <strong>Teléfono</strong>
+                    (+54)3571 592061
+                </li>
+                <li>
+                    <strong>Email</strong>
+                    camilagraziani@outlook.com
+                </li>
+                <li>
+                    <strong>Dirección</strong>
+                    Ferri Cavarape 53,Corralito, Cordoba, Argentina
+                </li>
+                <li>
+                    <strong>Cargo</strong>
+                    <span>Consultor</span>
+                </li>
+            </ul>
+        </div>
+          <!-- intereses -->
+        <div class="col">
+            <h3>Intereses</h3>
+            <div class="contenedor-intereses">
+                <div class="interes">
+                    <i class="fa-solid fa-book"></i>
+                    <span>LIBROS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-headphones"></i>
+                    <span>MUSICA</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-plane"></i>
+                    <span>VIAJAR</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-person-hiking"></i>
+                    <span>DEPORTE</span>
+                </div>
+                <div class="interes">
+                   <i class="fa-solid fa-film"></i>
+                    <span>SERIES</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-language"></i>
+                    <span>IDIOMAS</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-shirt"></i>
+                    <span>CONFECCION</span>
+                </div>
+                <div class="interes">
+                    <i class="fa-solid fa-utensils"></i>
+                    <span>COCINAR</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button>
+        Descargar CV <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+    </button>
+    </div>
+  </section>
+
+     <!-- SECCION SKILLS -->
+     <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>POWERBI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- SECCION CURRICULUM -->
+ <section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Analista de Sistemas</h4>
+                    <span class="casa">Instituto Cervantes</span>
+                    <span class="fecha">2021 - Actualmente</span>
+                    
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Full Stack Developer</h4>
+                    <span class="casa">Argentina Programa</span>
+                    <span class="fecha">2021 - 2022</span>
+                   
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Programacion inicial</h4>
+                    <span class="casa">Universidad Tecnologica Nacional</span>
+                    <span class="fecha">2020</span>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                    
+                </div>
+                <div class="item izq">
+                    <h4>Contador Publico</h4>
+                    <span class="casa">Universidad Catolica de Cordoba</span>
+                    <span class="fecha">2013 - 2018</span>
+                    <div class="conectori">
+                    <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col derecha">
+                <h3>Experiencia de trabajo</h3>
+                <div class="item der">
+                    <h4>Consultor</h4>
+                    <span class="casa">POWERDATA</span>
+                    <span class="fecha">2022 - Actualmente</span>
+                    <p>Ayudar a los clientes a convertir datos en conocimiento utilizable a través de productos y servicios personalizados. Realizar o modificar procesos en PowerCenter. </p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Coordinadora contable</h4>
+                    <span class="casa">Agencia PROA</span>
+                    <span class="fecha">2020</span>
+                    <p>Coordinar las diferentes actividades del equipo contable de la empresa, evaluación y controlde los presupuestos semanales, implementación de sistema contable, preparación de lainformación para la presentación de ganancias.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Analista de control de gestión</h4>
+                    <span class="casa">ECCO S.A.</span>
+                    <span class="fecha">2018 - 2019</span>
+                    <p>Identificar y revelar desvíos u otros aspectos relevantes para el correcto funcionamientode la empresa, dar soporte en el proceso de planificación del presupuesto anual ycumplimiento en los lineamientos corporativos, analizar el grado de avance del plan deinversiones.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--===== CONTACT =====-->
+<section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+            <!-- Formulario -->
+            <form action="" method="post" id="form">
+            <div class="col">
+                <input type="text" name="inombre" id="name" placeholder="Nombre">
+                <input type="text" name="itelefono" id="tel" placeholder="Telefono">
+                <input type="email" name="iemail" id="email" placeholder="Correo">
+                <input type="text" name="itema" id="tema" placeholder="Tema">
+                <textarea name="imensaje" id="" cols="25" rows="5" placeholder="Mensaje"></textarea>
+                <button type="submit">
+                    Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            <p class="warning" id="warning"> </p>
+            </div>
+        </form>
+</section>
+
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-skype"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      
+    </div>
+</footer>
+
+
+
+
+<script src="script.js"></script>
+
 </body>
 </html>
